@@ -1,0 +1,34 @@
+<Solution>
+  <PropertyGroup Name="BasePortraitProject" Version="2.3.2.3" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="HelloWorld.png" />
+        <Image Name="shuttle2.png" />
+        <Image Name="1329766522.png.png" />
+        <Image Name="Earth.png" />
+        <Folder Name="Default">
+          <PlistParticleFile Name="defaultParticle.plist" />
+        </Folder>
+        <Audio Name="Enter Shikari - The Jester (Pro).WAV" />
+        <File Name="MainScene.csb" />
+        <Folder Name="Sprites">
+          <Folder Name="Backgrounds">
+            <Image Name="1329766522.png.png" />
+          </Folder>
+          <Folder Name="Objects">
+            <Image Name="Earth.png" />
+          </Folder>
+          <Folder Name="Player">
+            <Image Name="shuttle2.png" />
+          </Folder>
+        </Folder>
+        <Image Name="Object1.png" />
+        <Image Name="Object2.png" />
+        <Image Name="Untitled.png" />
+        <Image Name="Untitled2.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

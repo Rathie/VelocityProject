@@ -1,0 +1,22 @@
+﻿Build started 04/12/2015 12:12:15.
+     1>Project "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\BasePortraitProject.vcxproj" on node 2 (Build target(s)).
+     1>PreLinkEvent:
+         if not exist "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\" mkdir "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\"
+         xcopy /Y /Q "\cocos2d-x-3.8\prebuilt\win32\*.*" "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         60 File(s) copied
+       Link:
+         BasePortraitProject.vcxproj -> C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\BasePortraitProject.exe
+       CustomBuildStep:
+         if not exist "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\" mkdir "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\"
+         xcopy "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\..\Resources" "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         C:\Users\t024701e\Documents\BasePortraitProject\Resources\res\Untitled.png -> C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\Debug.win32\res\Untitled.png
+         1 File(s) copied
+     1>Done Building Project "C:\Users\t024701e\Documents\BasePortraitProject\proj.win32\BasePortraitProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.49
