@@ -1,5 +1,4 @@
 #include "GameOverScene.h"
-#include "GameScene.h"
 #include "MainMenuScene.h"
 #include "Definitions.h"
 
@@ -9,7 +8,6 @@
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
-
 Scene* GameOverScene::createScene()
 {
     // 'scene' is an autorelease object
@@ -57,7 +55,6 @@ bool GameOverScene::init()
 	menu->setPosition(Point::ZERO);
 
 	this->addChild(menu);
-
     return true;
 }
 
@@ -69,6 +66,6 @@ void GameOverScene::GoToMainMenuScene(cocos2d::Ref *sender)
 
 void GameOverScene::GoToGameScene(cocos2d::Ref *sender)
 {
-	auto scene = GameScene::createScene();
+	auto scene = HelloWorld::createScene();
 	Director::getInstance()->replaceScene(TransitionFade::create(TRANSITION_TIME, scene));
 }

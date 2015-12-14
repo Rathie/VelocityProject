@@ -1,0 +1,14 @@
+<Solution>
+  <PropertyGroup Name="CocosProject2" Version="2.3.2.3" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="HelloWorld.png" />
+        <Image Name="1329766522.png.png" />
+        <Image Name="shuttle2.png" />
+        <Image Name="Earth.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

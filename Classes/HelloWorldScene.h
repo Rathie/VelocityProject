@@ -2,7 +2,12 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "MainMenuScene.h"
 
+#include "InstructionsScene.h"
+#include "SplashScene.h"
+#include "GameOverScene.h"
+#include "Definitions.h"
 class HelloWorld : public cocos2d::Layer
 {
 public:
@@ -22,7 +27,12 @@ public:
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
 private:
-
+	void PlayerDeath();
+	void PlayerMovement();
+	bool CollisionDetection(cocos2d::CCSprite* sprite, cocos2d::CCSprite* targetSprite);
+	void SpaceObjectMovement();
+	void StarMovement();
+	void SpaceObjectPlacement();
 };
 
 #endif // __HELLOWORLD_SCENE_H__

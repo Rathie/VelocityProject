@@ -2,7 +2,7 @@
 #define __MAIN_MENU_SCENE_H__
 
 #include "cocos2d.h"
-
+#include "HelloWorldScene.h"
 class MainMenuScene : public cocos2d::Layer
 {
 public:

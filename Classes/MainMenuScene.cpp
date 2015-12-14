@@ -1,5 +1,4 @@
 #include "MainMenuScene.h"
-#include "GameScene.h"
 #include "InstructionsScene.h"
 #include "Definitions.h"
 #include "cocostudio/CocoStudio.h"
@@ -52,7 +51,7 @@ bool MainMenuScene::init()
 
 void MainMenuScene::GoToGameScene(cocos2d::Ref *sender)
 {
-	auto scene = GameScene::createScene();
+	auto scene = HelloWorld::createScene();
 
 	Director::getInstance()->replaceScene(TransitionFade::create(TRANSITION_TIME, scene));
 }

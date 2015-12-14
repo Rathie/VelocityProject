@@ -40,9 +40,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
 
     FileUtils::getInstance()->addSearchPath("res");
-
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    auto scene = SplashScene::createScene();
 
     // run
     director->runWithScene(scene);

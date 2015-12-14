@@ -2,7 +2,6 @@
 #define __GAME_SCENE_H__
 
 #include "cocos2d.h"
-#include "Ball.h"
 
 class GameScene : public cocos2d::Layer
 {
@@ -12,17 +11,19 @@ public:
 
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
     virtual bool init();
+	bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
+	void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
+	void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
+	void onTouchCancelled(cocos2d::Touch* touch, cocos2d::Event* event);
+	void onAcceleration(cocos2d::Acceleration* accel, cocos2d::Event* event);
+	void update(float);
+	void UpdateTimer(float dt);
 
     // implement the "static create()" method manually
     CREATE_FUNC(GameScene);
 
 private:
-	void SetPhysicsWorld(cocos2d::PhysicsWorld *world) { sceneWorld = world; };
 
-	bool onContactBegin(cocos2d::PhysicsContact &contact);
-
-	cocos2d::PhysicsWorld *sceneWorld;
-	Ball *ball;
 };
 
 #endif // __GAME_SCENE_H__

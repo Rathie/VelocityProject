@@ -1,0 +1,32 @@
+﻿  HelloWorldScene.cpp
+f:\cocosproject2\classes\helloworldscene.cpp(170): warning C4305: 'argument': truncation from 'double' to 'float'
+f:\cocosproject2\classes\helloworldscene.cpp(200): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\audio\include\simpleaudioengine.h(70): note: see declaration of 'CocosDenshion::SimpleAudioEngine::sharedEngine'
+f:\cocosproject2\classes\helloworldscene.cpp(225): warning C4552: '+': operator has no effect; expected operator with side-effect
+f:\cocosproject2\classes\helloworldscene.cpp(227): warning C4552: '+': operator has no effect; expected operator with side-effect
+f:\cocosproject2\classes\helloworldscene.cpp(247): warning C4552: '+': operator has no effect; expected operator with side-effect
+f:\cocosproject2\classes\helloworldscene.cpp(249): warning C4552: '+': operator has no effect; expected operator with side-effect
+f:\cocosproject2\classes\helloworldscene.cpp(239): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\audio\include\simpleaudioengine.h(70): note: see declaration of 'CocosDenshion::SimpleAudioEngine::sharedEngine'
+f:\cocosproject2\classes\helloworldscene.cpp(261): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\audio\include\simpleaudioengine.h(70): note: see declaration of 'CocosDenshion::SimpleAudioEngine::sharedEngine'
+f:\cocosproject2\classes\helloworldscene.cpp(463): warning C4996: 'cocos2d::CCSprite': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\deprecated\ccdeprecated.h(680): note: see declaration of 'cocos2d::CCSprite'
+f:\cocosproject2\classes\helloworldscene.cpp(465): warning C4996: 'cocos2d::CCRect': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\deprecated\ccdeprecated.h(777): note: see declaration of 'cocos2d::CCRect'
+f:\cocosproject2\classes\helloworldscene.cpp(466): warning C4996: 'cocos2d::CCRect': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\deprecated\ccdeprecated.h(777): note: see declaration of 'cocos2d::CCRect'
+f:\cocosproject2\classes\helloworldscene.cpp(465): warning C4996: 'cocos2d::Node::boundingBox': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\2d\ccnode.h(1163): note: see declaration of 'cocos2d::Node::boundingBox'
+f:\cocosproject2\classes\helloworldscene.cpp(466): warning C4996: 'cocos2d::Node::boundingBox': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\2d\ccnode.h(1163): note: see declaration of 'cocos2d::Node::boundingBox'
+f:\cocosproject2\classes\helloworldscene.cpp(528): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\audio\include\simpleaudioengine.h(70): note: see declaration of 'CocosDenshion::SimpleAudioEngine::sharedEngine'
+f:\cocosproject2\classes\helloworldscene.cpp(530): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\audio\include\simpleaudioengine.h(70): note: see declaration of 'CocosDenshion::SimpleAudioEngine::sharedEngine'
+f:\cocosproject2\classes\helloworldscene.cpp(554): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': was declared deprecated
+  c:\cocos\frameworks\cocos2d-x-3.8\cocos\audio\include\simpleaudioengine.h(70): note: see declaration of 'CocosDenshion::SimpleAudioEngine::sharedEngine'
+  60 File(s) copied
+  CocosProject2.vcxproj -> F:\CocosProject2\proj.win32\Debug.win32\CocosProject2.exe
+  F:\CocosProject2\Resources\OGLdpf.log -> F:\CocosProject2\proj.win32\Debug.win32\OGLdpf.log
+  1 File(s) copied
